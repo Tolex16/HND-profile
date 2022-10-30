@@ -1,0 +1,124 @@
+*{
+  background: #F4F5F7;
+  font-family: 'Inter';
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.App {
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  justify-content: center;
+}
+.profile{
+  width: 10g0px;
+  border-radius: 75px;
+}
+#slack{
+  display: none;
+}
+#btn-zuri, #books, #book__python, #pitch, #book__design{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 24px 32px;
+margin: auto;
+width: 1152px;
+height: 76px;
+background: #EAECF0;
+border: 1px solid #EAECF0;
+border-radius: 8px;
+left: 0;
+right: 0;
+row-gap: 8px;
+margin-bottom: 24px;
+}
+.pic{
+  display: inline;
+  margin-bottom: 32px;
+}
+a{
+  color: #101828;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+footer{
+  display: flex;
+  width: 1152px;
+  height: 76px;
+}
+.footmobi, .mobile{
+  display: none;
+}
+@media (max-width: 667px) {
+  .App{
+    text-align: center;
+    justify-content: center;
+  }
+  #btn-zuri, #books, #book__python, #pitch, #book__design{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    width: 343px;
+    height: 68px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    row-gap: 8px;
+    margin-bottom: 24px;
+    left: 0px;
+    top: 0px;
+    }
+    .pic{
+   display: none;
+    }
+    .text{
+      display: none;
+    }
+    .footmobi, .mobile{
+      display: initial;
+      width: 375px;
+      text-align: center;
+      align-items: center;
+    }
+}
+@media (max-width: 740px) {
+  .App{
+    text-align: center;
+    justify-content: center;
+  }
+  #btn-zuri, #books, #book__python, #pitch, #book__design{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    width: 343px;
+    height: 68px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    row-gap: 8px;
+    margin-bottom: 24px;
+    left: 0px;
+    top: 0px;
+    }
+    .pic{
+   display: none;
+    }
+    .text{
+      display: none;
+    }
+    .footmobi, .mobile{
+      display: initial;
+      width: 375px;
+      text-align: center;
+      align-items: center;
+    }
+}
