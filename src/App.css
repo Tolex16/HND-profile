@@ -22,8 +22,8 @@
 #btn-zuri, #books, #book__python, #pitch, #book__design{
 box-sizing: border-box;
 display: flex;
-flex-direction: row;
 justify-content: center;
+flex-direction: row;
 padding: 24px 32px;
 margin: auto;
 width: 1152px;
@@ -35,6 +35,7 @@ left: 0;
 right: 0;
 row-gap: 8px;
 margin-bottom: 24px;
+text-align: center;
 }
 .pic{
   display: inline;
@@ -75,6 +76,7 @@ footer{
     margin-bottom: 24px;
     left: 0px;
     top: 0px;
+    text-align: center;
     }
     .pic{
    display: none;
@@ -90,9 +92,6 @@ footer{
     }
 }
 @media (max-width: 740px) {
-  .App{
-    text-align: center;
-    justify-content: center;
   }
   #btn-zuri, #books, #book__python, #pitch, #book__design{
     display: flex;
@@ -108,11 +107,15 @@ footer{
     margin-bottom: 24px;
     left: 0px;
     top: 0px;
+    text-align: center
     }
     .pic{
    display: none;
     }
     .text{
+  .App{
+    text-align: center;
+    justify-content: center;
       display: none;
     }
     .footmobi, .mobile{
