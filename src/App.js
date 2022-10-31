@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <img className='profile' src= {profile_img} alt= "profile" />
       <h1>Nna-Edozie Tochukwu Emmanuel</h1>
-      <p id='slack'>slack_name</p>
+      <p id='slack'>slack_name- Tochukwu Nna-Edozie</p>
       <ul>
         <li id="btn-zuri">
         <a href="https://twitter.com/edozie_nna">Twitter Link</a>
