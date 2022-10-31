@@ -61,6 +61,7 @@ footer{
   #btn-zuri, #books, #book__python, #pitch, #book__design{
     display: flex;
     flex-direction: row;
+    padding: 24px 32px;
     justify-content: center;
     gap: 8px;
     width: 343px;
