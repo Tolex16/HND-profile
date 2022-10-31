@@ -10,7 +10,6 @@
   left: 0;
   right: 0;
   margin: auto;
-  justify-content: center;
 }
 .profile{
   width: 100px;
@@ -23,8 +22,6 @@
 box-sizing: border-box;
 display: flex;
 justify-content: center;
-flex-direction: row;
-padding: 24px 32px;
 margin: auto;
 width: 1152px;
 height: 76px;
@@ -33,7 +30,6 @@ border: 1px solid #EAECF0;
 border-radius: 8px;
 left: 0;
 right: 0;
-row-gap: 8px;
 margin-bottom: 24px;
 text-align: center;
 }
@@ -60,7 +56,6 @@ footer{
 @media (max-width: 667px) {
   .App{
     text-align: center;
-    justify-content: center;
   }
   #btn-zuri, #books, #book__python, #pitch, #book__design{
     display: flex;
@@ -88,14 +83,12 @@ footer{
       display: initial;
       width: 375px;
       text-align: center;
-      align-items: center;
     }
 }
 @media (max-width: 740px) {
   }
   #btn-zuri, #books, #book__python, #pitch, #book__design{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     gap: 8px;
     width: 343px;
@@ -103,7 +96,6 @@ footer{
     background: #EAECF0;
     border: 1px solid #EAECF0;
     border-radius: 8px;
-    row-gap: 8px;
     margin-bottom: 24px;
     left: 0px;
     top: 0px;
@@ -115,8 +107,7 @@ footer{
     .text{
   .App{
     text-align: center;
-    justify-content: center;
-      display: none;
+    display: none;
     }
     .footmobi, .mobile{
       display: initial;
