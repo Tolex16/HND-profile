@@ -21,6 +21,7 @@
 #btn-zuri, #books, #book__python, #pitch, #book__design{
 box-sizing: border-box;
 display: flex;
+padding: 24px 32px;
 justify-content: center;
 margin: auto;
 width: 1152px;
